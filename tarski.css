@@ -49,6 +49,15 @@ a:hover {font-style:italic;}
     max-width:30%;
 }
 
+.siteheadleft {
+    float:left;
+}
+.siteheadright {
+    float:right;
+    width:70%;
+}
+
+
 /* These are for the edit form. */
 #wikiedit form { margin:0px; width:100%; }
 #wikiedit textarea { width:100%; }
