@@ -10,6 +10,8 @@
 
 header("Content-type: text/css");
 
+$SkinDirUrl = (isset($_REQUEST['d']) && !empty($_REQUEST['d'])) ? $_REQUEST['d'] : dirname($_SERVER['PHP_SELF']);
+
 $scheme = (isset($_REQUEST['scheme']) && !empty($_REQUEST['scheme'])) ? $_REQUEST['scheme'] : '';
 switch ($scheme) {
 	case 'dark':
@@ -100,10 +102,10 @@ h3 {color:<?php echo $dim_text; ?>;}
 	border-color: <?php echo $quote_border; ?>;
 }
 .navtrailleft {
-background: transparent url("<?php echo $SkinDirUrl; ?>/img/prev24.png") center left no-repeat;
+background: transparent url("<?php echo $SkinDirUrl; ?>/img/nav/prev24.png") center left no-repeat;
   padding-left: 28px;
  }
 .navtrailright {
-background: transparent url("<?php echo $SkinDirUrl; ?>/img/next24.png") center right no-repeat;
+background: transparent url("<?php echo $SkinDirUrl; ?>/img/nav/next24.png") center right no-repeat;
   padding-right: 28px;
  }
