@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>$WikiTitle &raquo; $Titlespaced</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="$SkinDirUrl/tarski.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="$SkinDirUrl/color.php?scheme=$SkinScheme" type="text/css" charset="utf-8" />
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<!--HTMLHeader-->	
+</head>
+<body>
+<!--PageHeaderFmt-->
+<header>
+  <div id="headerimage">
+    <img src="$SkinDirUrl/img/greytree.jpg" alt="Greytree" />
+  </div>
+  <a id="sitelogo" href='$ScriptUrl/'><img src='$PageLogoUrl' alt='$WikiTitle' border='0' /></a>
+  <h1 id="sitetitle"><a href="$ScriptUrl">$WikiTitle</a></h1>
+  <p id="sitetag">$WikiTag</p>
+  <div class="vspace clearboth"></div>
+</header>
+<!--wiki:$Group.SiteHeader $SiteGroup.SiteHeader-->
+<!--/PageHeaderFmt-->
+
+<aside>
+<!--PageLeftFmt-->
+<!--wiki:$Group.SideBar $SiteGroup.SideBar-->
+<!--/PageLeftFmt-->
+</aside>
+<article>
+<!--PageTitleFmt-->
+  <h1 id='location'><a href='$ScriptUrl/$Group'>$Group</a>
+  &raquo; $Title</h1>
+<!--wiki:$Group.PageHeader $SiteGroup.PageHeader-->
+<!--/PageTitleFmt-->
+<nav id="pageactions">
+	<!--PageActionsFmt-->
+<!--wiki:$Group.PageActions $SiteGroup.PageActions-->
+</nav>
+<section id="wikitext">
+<!--PageText-->
+</section>
+  <hr />
+<section id="pagefooter">
+<!--PageFooterFmt-->
+<!--wiki:$Group.PageFooter $SiteGroup.PageFooter-->
+<!--/PageFooterFmt-->
+</section>
+</article>
+<div class="vspace clearboth">&nbsp;</div>
+<footer>
+<!--wiki:$SiteGroup.SiteFooter-->
+<!--HTMLFooter-->
+</footer>
+</body>
+</html>
