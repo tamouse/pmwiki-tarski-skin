@@ -33,6 +33,22 @@ a:hover {font-style:italic;}
 	margin: 0px 3px;
 }
 
+/* these are for the navigation trails at the top of each entry, used in Site.LocalTemplates#parenttrail */
+.navtrailleft {
+    float:right;
+    /* background image and colour set in color.php */
+    max-width:30%;
+}
+.navtrailmiddle {
+    text-align:center;
+    max-width:30%;
+}
+.navtrailright {
+    float:right;
+    /* background image and colour set in color.php */
+    max-width:30%;
+}
+
 /* These are for the edit form. */
 #wikiedit form { margin:0px; width:100%; }
 #wikiedit textarea { width:100%; }

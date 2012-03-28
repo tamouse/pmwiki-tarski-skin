@@ -99,3 +99,11 @@ h3 {color:<?php echo $dim_text; ?>;}
 	color: <?php echo $quote_text; ?>;
 	border-color: <?php echo $quote_border; ?>;
 }
+.navtrailleft {
+background: transparent url("<?php echo $SkinDirUrl; ?>/img/prev24.png") center left no-repeat;
+  padding-left: 28px;
+ }
+.navtrailright {
+background: transparent url("<?php echo $SkinDirUrl; ?>/img/next24.png") center right no-repeat;
+  padding-right: 28px;
+ }
