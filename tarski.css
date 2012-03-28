@@ -35,17 +35,25 @@ a:hover {font-style:italic;}
 
 /* these are for the navigation trails at the top of each entry, used in Site.LocalTemplates#parenttrail */
 .navtrailleft {
-    float:right;
+    float:left;
     /* background image and colour set in color.php */
+    width:30%;
+    min-width:30%
     max-width:30%;
 }
 .navtrailmiddle {
     text-align:center;
+    width:30%;
+    min-width:30%
     max-width:30%;
+    margin: 0px auto;
 }
 .navtrailright {
     float:right;
+    text-align:right;
     /* background image and colour set in color.php */
+    width:30%;
+    min-width:30%
     max-width:30%;
 }
 
